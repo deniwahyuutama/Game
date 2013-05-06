@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{459E4277-D0A4-4760-9D24-89BC2612CD29}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>form1dan2.My.MyApplication</StartupObject>
+    <RootNamespace>form1dan2</RootNamespace>
+    <AssemblyName>form1dan2</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>form1dan2.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>form1dan2.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>Off</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="choose.Designer.vb">
+      <DependentUpon>choose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="choose.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Liga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inggris.Designer.vb">
+      <DependentUpon>Inggris.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inggris.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Jerman.Designer.vb">
+      <DependentUpon>Jerman.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Jerman.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Spanyol.Designer.vb">
+      <DependentUpon>Spanyol.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Spanyol.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Italia.Designer.vb">
+      <DependentUpon>Italia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Italia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Koneksi.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="New User.Designer.vb">
+      <DependentUpon>New User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newPlayer.Designer.vb">
+      <DependentUpon>newPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="newPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.vb">
+      <DependentUpon>Profil.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Profil.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Score.Designer.vb">
+      <DependentUpon>Score.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Score.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="choose.resx">
+      <DependentUpon>choose.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Liga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inggris.resx">
+      <DependentUpon>Inggris.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jerman.resx">
+      <DependentUpon>Jerman.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liga.resx">
+      <DependentUpon>Liga.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Spanyol.resx">
+      <DependentUpon>Spanyol.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Italia.resx">
+      <DependentUpon>Italia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New User.resx">
+      <DependentUpon>New User.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newPlayer.resx">
+      <DependentUpon>newPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Score.resx">
+      <DependentUpon>Score.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Germany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Germany1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\England.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\de.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\es.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\it.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manchester_city_fc_psd_by_chicot101-d4awcw2j.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Manchester_United_FC_crest.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arsenal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tottenham.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chelsea.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
